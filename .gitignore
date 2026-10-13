@@ -1,0 +1,45 @@
+# Stored results -- regenerate by running the analysis scripts
+separable_all_results.Rdata
+separable_war_results.Rdata
+revision_results.Rdata
+greedy_sep_results.Rdata
+greedy_acc2_results.Rdata
+sign_table_coefs.Rdata
+
+# Backup checkpoints from iterative runs -- revision_results.Rdata is authoritative
+revision_results_backup_20260508.Rdata
+revision_results_backup2_20260508.Rdata
+revision_results_backup3_20260511.Rdata
+
+# Run log backups -- revision_output.txt is current
+revision_output_backup_20260508.txt
+revision_output_backup2_20260508.txt
+
+# Generated figures (regenerate from replicate.R / acc_by_init_frac.R)
+acc_by_init_frac.pdf
+gain_by_init_frac.pdf
+greedy_sep_cont_heatmap.pdf
+greedy_sep_init_heatmap.pdf
+greedy_sep_vis_cont.pdf
+greedy_sep_vis_init.pdf
+
+# Paper zip archive (contents are in paper/)
+paper.zip
+
+# Exploratory / pilot scripts -- not part of the core reproducible workflow
+recip_pilot.R
+recip_base_rate.R
+interact_converge.R
+separable_war.R
+greedy_acc.R
+
+# Compiled object files (regenerate via Rcpp)
+llrem/src/*.o
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store

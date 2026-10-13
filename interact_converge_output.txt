@@ -1,0 +1,64 @@
+Networks selected:
+         domain
+1     Classroom
+2 Gang Violence
+3       Glances
+4   Phone (DoD)
+5       Twitter
+                                                                  path
+1             /Users/bgibson/Downloads/DataP/Classroom/McFarland.Rdata
+2                 /Users/bgibson/Downloads/DataP/Gangs/gangnet38.Rdata
+3                   /Users/bgibson/Downloads/DataP/ftf/network48.Rdata
+4                     /Users/bgibson/Downloads/DataP/Phone/Phone.Rdata
+5 /Users/bgibson/Downloads/DataP/Twitter/twitter_boston_relevent.rdata
+
+
+=== Classroom ===
+  McFarland.Rdata
+  actors=19  events=691  dyads=342  event/dyad=2.02
+
+  -- n_nonevents = 200 --
+  init_events=113  cont_events=577  init_frac=0.164
+  At initiation events: risk set continuation fraction  mean=0.165  min=0.005  max=0.350
+  Convergence:
+    init sub-model (nn=200)         iter=9    NA_coef=1  |coef|>20: 0  converged=NO
+    cont sub-model (nn=200)         iter=7    NA_coef=0  |coef|>20: 0  converged=YES
+    interacted pooled (nn=200)      iter=10   NA_coef=2  |coef|>20: 0  converged=NO
+  Predictive accuracy:  sep=-999.0000  interact=-999.0000
+
+  -- n_nonevents = 300 --
+  init_events=113  cont_events=577  init_frac=0.164
+  At initiation events: risk set continuation fraction  mean=0.167  min=0.003  max=0.327
+  Convergence:
+    init sub-model (nn=300)         iter=9    NA_coef=1  |coef|>20: 0  converged=NO
+    cont sub-model (nn=300)         iter=7    NA_coef=0  |coef|>20: 0  converged=YES
+    interacted pooled (nn=300)      iter=10   NA_coef=2  |coef|>20: 0  converged=NO
+  Predictive accuracy:  sep=-999.0000  interact=-999.0000
+
+=== Gang Violence ===
+  gangnet38.Rdata
+  actors=33  events=450  dyads=1056  event/dyad=0.43
+
+  -- n_nonevents = 200 --
+  init_events=202  cont_events=247  init_frac=0.450
+  At initiation events: risk set continuation fraction  mean=0.095  min=0.000  max=0.224
+  Convergence:
+    init sub-model (nn=200)         iter=5    NA_coef=1  |coef|>20: 0  converged=NO
+    cont sub-model (nn=200)         iter=4    NA_coef=0  |coef|>20: 0  converged=YES
+    interacted pooled (nn=200)      iter=8    NA_coef=2  |coef|>20: 0  converged=NO
+  Predictive accuracy:  sep=-999.0000  interact=-999.0000
+
+  -- n_nonevents = 300 --
+  init_events=202  cont_events=247  init_frac=0.450
+  At initiation events: risk set continuation fraction  mean=0.097  min=0.000  max=0.209
+  Convergence:
+    init sub-model (nn=300)         iter=5    NA_coef=1  |coef|>20: 0  converged=NO
+    cont sub-model (nn=300)         iter=4    NA_coef=0  |coef|>20: 0  converged=YES
+    interacted pooled (nn=300)      iter=8    NA_coef=2  |coef|>20: 0  converged=NO
+  Predictive accuracy:  sep=-999.0000  interact=-999.0000
+
+=== Glances ===
+  network48.Rdata
+  actors=7  events=10000  dyads=42  event/dyad=238.10
+
+  -- n_nonevents = 200 --

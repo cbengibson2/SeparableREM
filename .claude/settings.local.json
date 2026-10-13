@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Rscript *)",
+      "Bash(sort find *)",
+      "Bash(pdflatex -interaction=nonstopmode main4.tex)",
+      "Read(//usr/local/**)",
+      "Read(//Library/TeX/texbin/**)",
+      "Read(//usr/**)",
+      "Read(//Applications/**)",
+      "Bash(mdfind -name pdflatex)",
+      "Bash(/Users/bgibson/Library/TinyTeX/bin/universal-darwin/bibtex main4 *)",
+      "Bash(/Users/bgibson/Library/TinyTeX/bin/universal-darwin/pdftex -interaction=nonstopmode \"&pdflatex\" main4.tex)",
+      "Bash(Rscript revision.R)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(/Library/TeX/texbin/pdflatex -interaction=nonstopmode main4.tex)",
+      "Bash(/Users/bgibson/Library/TinyTeX/bin/universal-darwin/pdflatex -interaction=nonstopmode main4.tex)",
+      "Bash(wait 44761)",
+      "Bash(kill 44761)",
+      "WebFetch(domain:cjssp.uni-corvinus.hu)",
+      "WebFetch(domain:scholar.google.com)",
+      "Bash(kill %1)",
+      "Bash(tee greedy_acc2_output.txt)"
+    ]
+  }
+}

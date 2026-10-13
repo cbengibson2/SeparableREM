@@ -1,0 +1,55 @@
+Warning message:
+package ‘testthat’ was built under R version 4.3.3 
+Loaded prior greedy paths for 78 networks
+
+[[1]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[2]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[5]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[6]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+Running on 78 networks using 6 cores ...
+78 networks retained (dropped 0)
+
+Saved to /Users/bgibson/Projects/SepREM/greedy_acc2_results.Rdata
+
+=== Mean predictive accuracy (unweighted) ===
+  Separable greedy (init):  0.1796
+  Separable greedy (cont):  0.3408
+  Separable greedy (comb):  0.3064
+  Pooled greedy:            0.2584
+  Pooled greedy (init):     0.0620
+  Pooled greedy (cont):     0.3057
+
+=== Mean predictive accuracy (ecology-weighted) ===
+  Separable greedy (init):  0.2478
+  Separable greedy (cont):  0.5326
+  Separable greedy (comb):  0.4758
+  Pooled greedy:            0.4270
+  Pooled greedy (init):     0.1326
+  Pooled greedy (cont):     0.5023
+
+=== Mean terms selected ===
+  Init sub-model:  4.9
+  Cont sub-model:  9.3
+  Pooled:          6.9 / 8
+
+Done.

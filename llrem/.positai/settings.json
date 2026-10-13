@@ -1,0 +1,15 @@
+{
+  "permission": {
+    "external_directory": {
+      "C:/Users/cbeng/Work/Projects/LLMREM/*": "allow"
+    },
+    "bash": {
+      "ollama list 2>&1": "allow",
+      "ls *": "allow",
+      "head *": "allow"
+    },
+    "executeCode": {
+      "*": "allow"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Rscript *)",
+      "Bash(R CMD *)",
+      "Bash(xcode-select -p)",
+      "Read(//Library/Developer/CommandLineTools/SDKs/**)",
+      "Read(//Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/**)",
+      "Bash(clang++ --version)",
+      "Bash(SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk R CMD *)",
+      "Bash(mkdir -p ~/.R)",
+      "Bash(echo 'CXXFLAGS += -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk')",
+      "Bash(clang++ -arch *)",
+      "Bash(xcrun clang++ *)",
+      "Bash(xcode-select --print-path)",
+      "Bash(clang++ -v *)",
+      "Read(//opt/homebrew/opt/llvm/include/c++/v1/**)",
+      "Read(//usr/local/opt/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(R -e \"find.package\\('relevent'\\)\")"
+    ]
+  }
+}

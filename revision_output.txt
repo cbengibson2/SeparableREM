@@ -1,0 +1,35 @@
+Warning message:
+package ‘testthat’ was built under R version 4.3.3 
+Found 210 files across 9 domains
+
+
+    Classroom         Email Gang Violence       Glances           PMs 
+            1            33           100            62             8 
+  Phone (DoD)           SMS       Twitter           War 
+            1             3             1             1 
+[[1]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[2]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[5]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[6]]
+ [1] "survival"  "llrem"     "testthat"  "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+
+Running revision analyses on 210 networks using 6 cores ...
